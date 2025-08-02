@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Manas Joshi",
+        "score": 2200
+    },
+    {
+        "id": 2,
+        "name": "Sumit Tripathi",
+        "score": 2000
+    },
+    {
+        "id": 3,
+        "name": "Jay Pinage",
+        "score": 1500
+    },
+    {
+        "id": 4,
+        "name": "Manazir Ansari",
+        "score": 1200
+    },
+    {
+        "id": 5,
+        "name": "Dhruv Bendre",
+        "score": 1000
+    }
+]

@@ -1,3 +1,4 @@
+import 'package:dashborad_app/Screens/bottomnavScreen.dart';
 import 'package:flutter/material.dart';
 
 class Signupscreen extends StatefulWidget {
@@ -99,24 +100,17 @@ class _Signupscreen extends State<Signupscreen> {
                 ),
             
                 SizedBox(height: 20),
-                ElevatedButton(onPressed: () {},
+                ElevatedButton(onPressed: () {
+              Navigator.push(context,MaterialPageRoute(builder: (context)=>Bottomnavscreen()));
+
+                },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.lightBlueAccent,
                   minimumSize: Size(MediaQuery.of(context).size.width*0.9,50)
                 ),
-                 child: Text("Login",style: TextStyle(fontSize: 20,color: Colors.black87),)),
+                 child: Text("SignUp",style: TextStyle(fontSize: 20,color: Colors.black87),)),
             
-                SizedBox(height: 20),
-            
-                Text("Not Have An Account ?",style: TextStyle(color: Colors.black87),),
-            
-                InkWell(
-                  onTap: () {},
-                  child: Text(
-                    "Create An Account",
-                    style: TextStyle(color: Colors.blue),
-                  ),
-                ),
+    
               ],
             ),
           ),

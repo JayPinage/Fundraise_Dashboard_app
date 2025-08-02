@@ -1,3 +1,4 @@
+import 'package:dashborad_app/Screens/bottomnavScreen.dart';
 import 'package:dashborad_app/Screens/signUpScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -83,6 +84,7 @@ class _Loginscreen extends State<Loginscreen> {
             
                 SizedBox(height: 20),
                 ElevatedButton(onPressed: () {
+                  Navigator.push(context,MaterialPageRoute(builder: (context)=>Bottomnavscreen()));
                  
                 },
                 style: ElevatedButton.styleFrom(
